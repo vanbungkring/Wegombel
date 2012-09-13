@@ -11,7 +11,7 @@
 }
 
 .homepage .hubSection1 {
-    background: #000;
+
     -ms-grid-row: 1;
     -ms-grid-column: 2; /* 4 for hubSection2, 6 for hubSection3, etc. */
     width: 100%;
@@ -19,7 +19,7 @@
 }
 
 .homepage .hubSection2 {
-    background: #4cff00;
+
     -ms-grid-row: 1;
     -ms-grid-column: 4; /* 4 for hubSection2, 6 for hubSection3, etc. */
     width: 100%;
@@ -27,7 +27,7 @@
 }
 
 .homepage .hubSection3 {
-    background: #4cff00;
+
     -ms-grid-row: 1;
     -ms-grid-column: 6; /* 4 for hubSection2, 6 for hubSection3, etc. */
     width: 100%;
@@ -35,7 +35,7 @@
 }
 
 .homepage .hubSection4 {
-    background: #4cff00;
+
     -ms-grid-row: 1;
     -ms-grid-column: 8; /* 4 for hubSection2, 6 for hubSection3, etc. */
     width: 200%;
