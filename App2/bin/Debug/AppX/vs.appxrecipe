@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\wego-project\Wego\App2\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-13T13:40:08.075</Modified>
+      <Modified>2012-09-13T15:24:19.878</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,11 +26,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2012-09-13T14:34:13.790</Modified>
+      <Modified>2012-09-13T15:16:42.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\flightss.png">
       <PackagePath>images\flightss.png</PackagePath>
       <Modified>2012-09-13T08:31:14.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\hotelss.png">
+      <PackagePath>images\hotelss.png</PackagePath>
+      <Modified>2012-09-13T15:14:26.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\logo-landing.png">
       <PackagePath>images\logo-landing.png</PackagePath>
@@ -60,6 +64,18 @@
       <PackagePath>logo-landing.png</PackagePath>
       <Modified>2012-09-11T06:16:52.957</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\flightss.png">
+      <PackagePath>pages\images\flightss.png</PackagePath>
+      <Modified>2012-09-13T08:31:14.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\hotelss.png">
+      <PackagePath>pages\images\hotelss.png</PackagePath>
+      <Modified>2012-09-13T15:14:26.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\logo-landing.png">
+      <PackagePath>pages\images\logo-landing.png</PackagePath>
+      <Modified>2012-09-11T06:16:52.957</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2012-09-13T05:54:48.497</Modified>
@@ -70,19 +86,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2012-09-13T05:54:48.617</Modified>
+      <Modified>2012-09-13T15:24:17.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2012-09-13T14:33:24.497</Modified>
+      <Modified>2012-09-13T15:11:34.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-13T07:34:51.309</Modified>
+      <Modified>2012-09-13T15:01:44.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-13T08:45:35.787</Modified>
+      <Modified>2012-09-13T15:24:19.831</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

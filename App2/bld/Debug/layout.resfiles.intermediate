@@ -1,6 +1,7 @@
 css\default.css
 default.html
 images\flightss.png
+images\hotelss.png
 images\logo.png
 images\logo-landing.png
 images\smalllogo.png
@@ -12,3 +13,6 @@ logo-landing.png
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js
+pages\images\flightss.png
+pages\images\hotelss.png
+pages\images\logo-landing.png

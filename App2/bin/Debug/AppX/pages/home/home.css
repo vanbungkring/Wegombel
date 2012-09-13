@@ -7,7 +7,7 @@
     height: 100%;
     display: -ms-grid;
     -ms-grid-rows: 1fr 50px;
-    -ms-grid-columns: 120px 340fr 80px 340fr 80px 340fr 80px 645fr 80px 645fr 80px;
+    -ms-grid-columns: 120px 340fr 80px 320fr 80px 320fr 80px 645fr 80px 645fr 80px;
 }
 
 
@@ -45,6 +45,8 @@
         color: #4b7e07;
         display: block;
         background-image: url('../images/flightss.png');
+        background-repeat: no-repeat;
+        background-position-y: 5px;
     }
 
 .homepage .hubSection3 {
@@ -59,7 +61,9 @@
         padding-left: 30px;
         color: #4b7e07;
         display: block;
-        background-image: url('../images/flights.png');
+        background-image: url('../images/hotelss.png');
+        background-repeat: no-repeat;
+        background-position-y: 5px;
     }
 
 
@@ -75,7 +79,8 @@
         padding-left: 30px;
         color: #4b7e07;
         display: block;
-        background-image: url('../images/flights.png');
+        background-image: url('../images/flightss.png');
+        background-repeat: no-repeat;
     }
 
 

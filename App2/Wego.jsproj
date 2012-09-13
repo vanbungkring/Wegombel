@@ -56,6 +56,7 @@
     </AppxManifest>
     <Content Include="css\default.css" />
     <Content Include="images\flightss.png" />
+    <Content Include="images\hotelss.png" />
     <Content Include="images\logo-landing.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
@@ -68,6 +69,9 @@
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
     <Content Include="default.html" />
+    <Content Include="pages\images\flightss.png" />
+    <Content Include="pages\images\hotelss.png" />
+    <Content Include="pages\images\logo-landing.png" />
     <None Include="App2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

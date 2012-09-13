@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\flightss.png">
       <PackagePath>images\flightss.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\hotelss.png">
+      <PackagePath>images\hotelss.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\logo-landing.png">
       <PackagePath>images\logo-landing.png</PackagePath>
     </AppxPackagedFile>
@@ -43,6 +46,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\logo-landing.png">
       <PackagePath>logo-landing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\flightss.png">
+      <PackagePath>pages\images\flightss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\hotelss.png">
+      <PackagePath>pages\images\hotelss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\images\logo-landing.png">
+      <PackagePath>pages\images\logo-landing.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\js\default.js">
       <PackagePath>js\default.js</PackagePath>
