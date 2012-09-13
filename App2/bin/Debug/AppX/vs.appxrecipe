@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2012-09-13T09:04:30.192</Modified>
+      <Modified>2012-09-13T09:32:27.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\flightss.png">
       <PackagePath>images\flightss.png</PackagePath>
@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2012-09-13T09:04:21.070</Modified>
+      <Modified>2012-09-13T09:31:38.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\default.html">
       <PackagePath>default.html</PackagePath>

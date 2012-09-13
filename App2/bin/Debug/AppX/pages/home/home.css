@@ -30,7 +30,17 @@
     .homepage .hubSection1 span {
         font-size: 24px;
         margin-top: 20px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
+    }
+
+    .homepage .hubSection1 title {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        height: 35px;
+        color: #4b7e07;
+        display: block;
     }
 
 .homepage .hubSection2 {
