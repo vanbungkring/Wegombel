@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\flightss.png">
+      <PackagePath>images\flightss.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\logo-landing.png">
       <PackagePath>images\logo-landing.png</PackagePath>
     </AppxPackagedFile>
