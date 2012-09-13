@@ -7,7 +7,7 @@
     height: 100%;
     display: -ms-grid;
     -ms-grid-rows: 1fr 50px;
-    -ms-grid-columns: 120px 340fr 80px 340fr 80px 340fr 80px 645fr 80px 645fr 80px;
+    -ms-grid-columns: 120px 340fr 80px 320fr 80px 320fr 80px 645fr 80px 645fr 80px;
 }
 
 
@@ -84,7 +84,7 @@
     width: 300px;
     background: #4b7e07;
     padding: 20px;
-    height: 300px;
+    overflow: hidden;
 }
 
     .searchbox .left-container {

@@ -84,7 +84,7 @@
     width: 300px;
     background: #4b7e07;
     padding: 20px;
-    height: 300px;
+    overflow: hidden;
 }
 
     .searchbox .left-container {
