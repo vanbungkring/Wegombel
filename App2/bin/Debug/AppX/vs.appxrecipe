@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2012-09-13T10:37:58.706</Modified>
+      <Modified>2012-09-13T11:07:23.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\default.html">
       <PackagePath>default.html</PackagePath>
