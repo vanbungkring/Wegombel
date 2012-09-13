@@ -5,7 +5,12 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            DrawDeals()
+            try {
+                DrawDeals()
+            }
+            catch (e) {
+
+            }
             // TODO: Initialize the page here.
         }
     });
@@ -17,8 +22,9 @@ function DrawDeals() {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.length; i++) {
             var greetingString = result[i].url;
+            document.getElementsByClassName("AU").innerText = greetingString;
         }
-        document.getElementById("AU").innerText = greetingString;
+     
     });
 
 }
