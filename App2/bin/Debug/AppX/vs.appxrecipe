@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2012-09-13T15:24:17.166</Modified>
+      <Modified>2012-09-13T17:39:01.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
