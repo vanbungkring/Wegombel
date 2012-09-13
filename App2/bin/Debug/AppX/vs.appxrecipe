@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2012-09-13T07:01:11.172</Modified>
+      <Modified>2012-09-13T07:06:37.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\images\logo-landing.png">
       <PackagePath>images\logo-landing.png</PackagePath>
