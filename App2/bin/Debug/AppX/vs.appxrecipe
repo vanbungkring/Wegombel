@@ -70,11 +70,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2012-09-13T07:02:15.961</Modified>
+      <Modified>2012-09-13T07:31:30.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-13T05:54:48.513</Modified>
+      <Modified>2012-09-13T07:25:12.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\wego-project\Wego\App2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
