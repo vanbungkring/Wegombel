@@ -21,7 +21,7 @@ function DrawDeals() {
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.length; i++) {
-            document.getElementById("deals-draw").innerText = result[i].url;
+            document.getElementsByClassName("deals-draw").innerText = result[i].url;
         }
 
 
