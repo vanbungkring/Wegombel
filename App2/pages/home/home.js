@@ -8,8 +8,9 @@
             DrawDeals()
             myPopupUI.style.opacity = "0";
             flightfrom.addEventListener("change", function (e) {
-                console.log(text5.value)
-            })
+                console.log(flightfrom.value)
+            }, false)
+
             runAnimation.addEventListener("click", function (e) {
                 console.log(Text5.value)
             });
