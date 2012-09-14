@@ -7,7 +7,7 @@
     height: 100%;
     display: -ms-grid;
     -ms-grid-rows: 1fr 50px;
-    -ms-grid-columns: 120px 140fr 80px 160fr 80px 160fr 80px 250fr 10px;
+    -ms-grid-columns: 120px 140fr 80px 160fr 80px 160fr 80px 250fr 80px;
 }
 
 
