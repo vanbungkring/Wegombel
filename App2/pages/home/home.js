@@ -6,6 +6,11 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             DrawDeals()
+            myPopupUI.style.opacity = "0";
+           
+            runAnimation.addEventListener("click", function (e) {
+                console.log(Text5.value)
+            });
 
         }
     });
@@ -25,4 +30,23 @@ function DrawDeals() {
 
     });
 
+}
+function togglePopupUI() {
+    if (runAnimation.innerHTML === "Show pop-up") {
+        // Set desired final opacity on the UI element.
+        myPopupUI.style.opacity = "1";
+
+        // Run show popup animation
+        WinJS.UI.Animation.showPopup(myPopupUI, null);
+
+        runAnimation.innerHTML = "Hide pop-up";
+    } else {
+        // Set desired final opacity on the UI element.
+        myPopupUI.style.opacity = "0";
+
+        // Run show popup animation
+        WinJS.UI.Animation.hidePopup(myPopupUI);
+
+        runAnimation.innerHTML = "Show pop-up";
+    }
 }
