@@ -20,9 +20,12 @@ function DrawDeals() {
     var url = 'http://deals.wego.com/api/featured/XX.js?currency=USD';
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
+        var yyy = document.getElementsByClassName("deals-draw");
         for (var i = 0; i < result.length; i++) {
-            document.getElementsByClassName("deals-draw").innerText = result[i].url;
+            result[i].url;
+  
         }
+
 
 
     });
