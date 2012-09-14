@@ -126,6 +126,12 @@
         margin-top: 10px;
     }
 
+/*deals style*/
+#deals-draw {
+    width: 400px;
+    background: #000000;
+}
+
 @media screen and (-ms-view-state: snapped) {
     .homepage section[role=main] {
         margin-left: 20px;
