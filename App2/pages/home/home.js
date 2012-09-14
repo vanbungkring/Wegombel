@@ -23,7 +23,7 @@ function DrawDeals() {
         var yyy = document.getElementsByClassName("deals-draw");
         for (var i = 0; i < result.length; i++) {
             result[i].url;
-            document.getElementById("deals-draw").innerHTML += '<li><a href=' + result[i].url + '><img class="deals-image" src=' + result[i].image + '></li>';
+            document.getElementById("deals-draw").innerHTML += '<li><a href=' + result[i].url + '><img class="deals-image" src=' + result[i].image + '> <p>' + result[i].headline + '</p></a></li>';
         }
 
 

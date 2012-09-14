@@ -127,25 +127,18 @@
     }
 
 /*deals style*/
-#deals-draw {
-    list-style: none;
+ul#deals-draw {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-    #deals-draw li {
+    ul#deals-draw li {
         float: left;
-        width: 350px;
+        width: 370px;
         margin-right: 10px;
-        margin-left:-20px;
-        background: #4b7e07;
+        background: #82be04;
         margin-bottom: 10px;
-        padding: 5px;
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-
-    #deals-draw .deals-image {
-        width: 200px;
-        height: 200px;
     }
 
 @media screen and (-ms-view-state: snapped) {
