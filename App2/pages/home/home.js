@@ -21,10 +21,10 @@ function DrawDeals() {
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.length; i++) {
-            var greetingString = result[i].url;
-            document.getElementsByClassName("AU").innerText = greetingString;
+            document.getElementById("deals-draw").innerText = result[i].url;
         }
-     
+
+
     });
 
 }
