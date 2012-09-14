@@ -48,3 +48,6 @@ function togglePopupUI() {
         runAnimation.innerHTML = "Show pop-up";
     }
 }
+function readJsonCity() {
+}
+function calendar() { }
