@@ -5,15 +5,10 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            DrawDeals()
-            myPopupUI.style.opacity = "0";
+            DrawDeals();
             flightfrom.addEventListener("change", function (e) {
                 console.log(flightfrom.value)
-            }, false)
-
-            runAnimation.addEventListener("click", function (e) {
-                console.log(Text5.value)
-            });
+            }, false);
 
         }
     });
