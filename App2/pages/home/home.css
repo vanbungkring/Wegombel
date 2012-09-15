@@ -133,13 +133,18 @@ ul#deals-draw {
     margin: 0;
 }
 
-    ul#deals-draw li {
+    ul#deals-draw li a {
         float: left;
         width: 370px;
         margin-right: 10px;
         background: #82be04;
         margin-bottom: 10px;
+        cursor: pointer;
     }
+
+        ul#deals-draw li a:hover {
+            background: #000;
+        }
 /* Core for deals done*/
 @media screen and (-ms-view-state: snapped) {
     .homepage section[role=main] {
