@@ -146,9 +146,10 @@ ul#deals-draw {
             background: #000;
         }
 
-    ul#deals-draw p {
+    ul#deals-draw .text-headline {
         color: #fff;
-        float: left;
+        width: 215px;
+        float: right;
     }
 
     ul#deals-draw img {
@@ -156,6 +157,7 @@ ul#deals-draw {
         width: 150px;
         height: 150px;
     }
+
 /* Core for deals done*/
 @media screen and (-ms-view-state: snapped) {
     .homepage section[role=main] {
