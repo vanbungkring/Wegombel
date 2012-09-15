@@ -148,7 +148,8 @@ ul#deals-draw {
 
     ul#deals-draw .text-headline {
         color: #fff;
-        width: 215px;
+        width: 180px;
+        margin-right: 25px;
         float: right;
     }
 
