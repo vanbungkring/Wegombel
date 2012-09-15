@@ -145,6 +145,17 @@ ul#deals-draw {
         ul#deals-draw li a:hover {
             background: #000;
         }
+
+    ul#deals-draw p {
+        color: #fff;
+        float: left;
+    }
+
+    ul#deals-draw img {
+        float: left;
+        width: 150px;
+        height: 150px;
+    }
 /* Core for deals done*/
 @media screen and (-ms-view-state: snapped) {
     .homepage section[role=main] {
