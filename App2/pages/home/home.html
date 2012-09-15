@@ -28,107 +28,107 @@
             <section aria-label="Main content" role="main">
                 <div class="hubSections">
                     <!--  hub 1-->
-            <div class="hubSection1">
-                <h2>Save Time Payless, Travel More</h2>
-                <span>By Searching Over 150 Site in the time it takes to search one</span>
-            </div>
-            <!--  hub 1 end-->
-            <!--  hub 2 start-->
-            <div class="hubSection2">
-                <span>Search For Flight</span>
-                <div class="searchbox">
-                    <label>FROM</label>
-                    <input type="text" id="flightfrom" class="flight-full" />
-                    <label>TO</label>
-                    <input type="text" id="flightto" class="flight-full" />
-                    <div class="left-container">
-                        <label>DEPART</label>
-                        <input type="text" id="Text1" class="flight-half" />
+                    <div class="hubSection1">
+                        <h2>Save Time Payless, Travel More</h2>
+                        <span>By Searching Over 150 Site in the time it takes to search one</span>
                     </div>
-                    <div class="right-container">
-                        <label>RETURN</label>
-                        <input type="text" id="Text2" class="flight-half" />
-                    </div>
-                    <div class="left-container">
-                        <label>PESSANGER</label>
-                        <select id="flight-pessanger" class="flight-half">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
+                    <!--  hub 1 end-->
+                    <!--  hub 2 start-->
+                    <div class="hubSection2">
+                        <span>Search For Flight</span>
+                        <div class="searchbox">
+                            <label>FROM</label>
+                            <input type="text" id="flightfrom" class="flight-full" />
+                            <label>TO</label>
+                            <input type="text" id="flightto" class="flight-full" />
+                            <div class="left-container">
+                                <label>DEPART</label>
+                                <input type="text" id="Text1" class="flight-half" />
+                            </div>
+                            <div class="right-container">
+                                <label>RETURN</label>
+                                <input type="text" id="Text2" class="flight-half" />
+                            </div>
+                            <div class="left-container">
+                                <label>PESSANGER</label>
+                                <select id="flight-pessanger" class="flight-half">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
 
-                        </select>
-                    </div>
-                    <div class="right-container">
-                        <label>CABIN CLASS</label>
-                        <select id="flight-class" class="flight-half">
-                            <option value="economy">Economy Class</option>
-                            <option value="bussiness">Bussines Class</option>
-                            <option value="first">First Class</option>
+                                </select>
+                            </div>
+                            <div class="right-container">
+                                <label>CABIN CLASS</label>
+                                <select id="flight-class" class="flight-half">
+                                    <option value="economy">Economy</option>
+                                    <option value="bussiness">Bussines</option>
+                                    <option value="first">First</option>
 
 
-                        </select>
+                                </select>
+                            </div>
+                            <button type="button" class="flight-submit" id="flight-submit">Search</button>
+                        </div>
                     </div>
-                    <button type="button" class="flight-submit" id="flight-submit">Search</button>
+                    <!--  hub 2 end-->
+                    <!--  hub 3 start-->
+                    <div class="hubSection3">
+                        <span>Search For Hotels</span>
+                        <div class="searchbox">
+                            <label>DESTINATION</label>
+                            <input type="text" id="Text5" class="flight-full" />
+
+                            <div class="left-container">
+                                <label>ARRIVE</label>
+                                <input type="text" id="Text7" class="flight-half" />
+                            </div>
+                            <div class="right-container">
+                                <label>DEPART</label>
+                                <input type="text" id="Text8" class="flight-half" />
+                            </div>
+                            <div class="left-container">
+                                <label>ROOM</label>
+                                <select id="hotels-room" class="flight-half">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+
+                                </select>
+                            </div>
+                            <div class="right-container">
+                                <label>CABIN CLASS</label>
+                                <select id="hotels-guest" class="flight-half">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                            </div>
+                            <button type="button" class="flight-submit" id="runAnimation">Show pop-up</button>
+                        </div>
+                    </div>
+                    <!--  hub 3 end-->
+                    <!--  hub 4 start-->
+                    <!-- deals done--->
+                    <div class="hubSection4">
+                        <span>Deal Finder</span>
+                        <ul id="deals-draw"></ul>
+
+                    </div>
+                    <div id="myPopupUI">
+                        <p>This is a pop-up. </p>
+                    </div>
                 </div>
-            </div>
-            <!--  hub 2 end-->
-            <!--  hub 3 start-->
-            <div class="hubSection3">
-                <span>Search For Hotels</span>
-                <div class="searchbox">
-                    <label>DESTINATION</label>
-                    <input type="text" id="Text5" class="flight-full" />
-
-                    <div class="left-container">
-                        <label>ARRIVE</label>
-                        <input type="text" id="Text7" class="flight-half" />
-                    </div>
-                    <div class="right-container">
-                        <label>DEPART</label>
-                        <input type="text" id="Text8" class="flight-half" />
-                    </div>
-                    <div class="left-container">
-                        <label>ROOM</label>
-                        <select id="hotels-room" class="flight-half">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-
-                        </select>
-                    </div>
-                    <div class="right-container">
-                        <label>CABIN CLASS</label>
-                        <select id="hotels-guest" class="flight-half">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                    </div>
-                    <button type="button" class="flight-submit" id="runAnimation">Show pop-up</button>
-                </div>
-            </div>
-            <!--  hub 3 end-->
-            <!--  hub 4 start-->
-            <!-- deals done--->
-            <div class="hubSection4">
-                <span>Deal Finder</span>
-                <ul id="deals-draw"></ul>
-
-            </div>
-            <div id="myPopupUI">
-                <p>This is a pop-up. </p>
-            </div>
-            </div>
-        </section>
+            </section>
         </section>
 
     </div>
