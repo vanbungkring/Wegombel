@@ -5,12 +5,14 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            if (Windows.Networking.Connectivity != Error) {
+            if (Windows.Networking.Connectivity === 0) {
+
                 DrawDeals();
-                console.log("1");
+                console.log(Windows.Networking.Connectivity);
+
             }
             else {
-                console.log("0");
+                console.log(Windows.Networking.Connectivity.toString);
             }
         }
     });
