@@ -5,11 +5,12 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            DrawDeals();
-            flightfrom.addEventListener("change", function (e) {
-                console.log(flightfrom.value)
-            }, false);
-
+            if (Windows.Networking.Connectivity != Error) {
+                DrawDeals();
+            }
+            else {
+                console.log("0");
+            }
         }
     });
 })();
