@@ -7,6 +7,7 @@
         ready: function (element, options) {
             if (Windows.Networking.Connectivity != Error) {
                 DrawDeals();
+                console.log("1");
             }
             else {
                 console.log("0");
