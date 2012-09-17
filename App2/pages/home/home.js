@@ -10,7 +10,7 @@
             ;
             ////flighteventlistener
             flightfrom.addEventListener("input", function (e) {
-                readJsonCityHotels(flightfrom.value)
+                readJsonCityHotels(flightfrom.value, "flightfrom")
             }, false)
 
             //hotel eventlistender
@@ -46,12 +46,12 @@ function readJsonCityFlight(city) {
     })
 }
 
-function readJsonCityHotels(city) {
+function readJsonCityHotels(city, name) {
     var url = "http://www.wego.co.id/id/hotels/api/autocomplete/1/locations/10/" + city + ".js";
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.length; i++) {
-            console.log(result[i].id);
+            console.log(result[i].id + " draw on " + name);
         }
     })
 }
