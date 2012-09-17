@@ -5,15 +5,13 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            if (Windows.Networking.Connectivity === 0) {
 
-                DrawDeals();
-                console.log(Windows.Networking.Connectivity);
+            DrawDeals();
+            ////autocomplete on searchbox
+            flightfrom.addEventListener("change", function (e) {
+                console.log(flightfrom.value)
+            }, false)
 
-            }
-            else {
-                console.log(Windows.Networking.Connectivity.toString);
-            }
         }
     });
 })();
