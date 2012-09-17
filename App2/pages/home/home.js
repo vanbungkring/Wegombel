@@ -6,8 +6,10 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             DrawDeals();
+            var dp = new WinJS.UI.DatePicker(ffd);
             flightsubmit.addEventListener('click', function (e) {
-            console.log("i'm clicked")})
+                console.log(dp)
+            })
         }
     });
 })();
