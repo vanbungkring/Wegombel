@@ -7,13 +7,20 @@
         ready: function (element, options) {
 
             DrawDeals();
+<<<<<<< HEAD
 
            // console.log("hellow")
             flightfrom.addEventListener("input", function (e) {
                
                 readJsonCity(flightfrom.value)
              }, false)
-
+=======
+            ;
+            ////flighteventlistener
+            flightfrom.addEventListener("input", function (e) {
+                readJsonCityHotels(flightfrom.value, "flightfrom")
+            }, false)
+>>>>>>> alpha
 
         }
     });
@@ -34,6 +41,28 @@ function DrawDeals() {
     });
 
 }
+
+function readJsonCityFlight(city) {
+    var url = "http://www.wego.co.id/id/flights/api/autocomplete/5/locations/6/" + city + ".js";
+    WinJS.xhr({ url: url }).then(function (data) {
+        var result = JSON.parse(data.responseText);
+        for (var i = 0; i < result.r.length; i++) {
+            console.log(result.r[i].id);
+        }
+    })
+}
+
+function readJsonCityHotels(city, name) {
+    var url = "http://www.wego.co.id/id/hotels/api/autocomplete/1/locations/10/" + city + ".js";
+    WinJS.xhr({ url: url }).then(function (data) {
+        var result = JSON.parse(data.responseText);
+        for (var i = 0; i < result.length; i++) {
+            console.log(result[i].id + " draw on " + name);
+        }
+    })
+}
+function calendar() { }
+
 function togglePopupUI() {
     if (runAnimation.innerHTML === "Show pop-up") {
         // Set desired final opacity on the UI element.
@@ -52,6 +81,7 @@ function togglePopupUI() {
 
         runAnimation.innerHTML = "Show pop-up";
     }
+<<<<<<< HEAD
 }
 function readJsonCity(city) {
     var url = "http://www.wego.co.id/id/flights/api/autocomplete/5/locations/6/" + city + ".js";
@@ -63,3 +93,6 @@ function readJsonCity(city) {
     })
 }
 function calendar() { }
+=======
+}
+>>>>>>> alpha

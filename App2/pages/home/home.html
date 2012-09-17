@@ -8,11 +8,11 @@
     <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
-
-
+    <script src="../../js/jq.js"></script>
+    <script src="/pages/home/home.js"></script>
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/home/home.css" rel="stylesheet" />
-    <script src="/pages/home/home.js"></script>
+
 </head>
 <body>
     <!-- The content that will be loaded and displayed. -->
@@ -38,17 +38,21 @@
                         <span>Search For Flight</span>
                         <div class="searchbox">
                             <label>FROM</label>
+<<<<<<< HEAD
                             <input type="text" id="flightfrom" class="flight-full" autocomplete="off"  />
+=======
+                            <input type="text" id="flightfrom" class="flight-full" />
+>>>>>>> alpha
                             <label>TO</label>
                             <input type="text" id="flightto" class="flight-full" />
-                            <div class="left-container">
-                                <label>DEPART</label>
-                                <input type="text" id="Text1" class="flight-half" />
-                            </div>
-                            <div class="right-container">
-                                <label>RETURN</label>
-                                <input type="text" id="Text2" class="flight-half" />
-                            </div>
+
+                            <label>DEPART DATE</label>
+                            <div id="ffd" data-win-control="WinJS.UI.DatePicker"></div>
+
+
+                            <label>RETURN DATE</label>
+                            <div id="ffr" data-win-control="WinJS.UI.DatePicker"></div>
+
                             <div class="left-container">
                                 <label>PESSANGER</label>
                                 <select id="flight-pessanger" class="flight-half">
@@ -82,14 +86,14 @@
                             <label>DESTINATION</label>
                             <input type="text" id="Text5" class="flight-full" />
 
-                            <div class="left-container">
-                                <label>ARRIVE</label>
-                                <input type="text" id="Text7" class="flight-half" />
-                            </div>
-                            <div class="right-container">
-                                <label>DEPART</label>
-                                <input type="text" id="Text8" class="flight-half" />
-                            </div>
+
+                            <label>ARRIVE</label>
+                            <div id="had" data-win-control="WinJS.UI.DatePicker"></div>
+
+
+                            <label>DEPART</label>
+                            <div id="hdd" data-win-control="WinJS.UI.DatePicker"></div>
+
                             <div class="left-container">
                                 <label>ROOM</label>
                                 <select id="hotels-room" class="flight-half">
