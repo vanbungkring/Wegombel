@@ -1,4 +1,5 @@
-﻿(function () {
+﻿var global_api_key = "d1d11c0cf2605c1e396a";
+(function () {
     "use strict";
 
     WinJS.UI.Pages.define("/pages/home/home.html", {
@@ -9,14 +10,18 @@
             var dp = new WinJS.UI.DatePicker(ffd);
             flightsubmit.addEventListener('click', function (e) {
                 console.log(flightfrom.value);
+                document.getElementById("flightfrom").setAttribute("data-id-kota", "Asu");
                 console.log(flightfrom.getAttribute('data-id-kota'));
+                console.log(dp.calendar)
                 console.log(flightto.value);
                 console.log(flightto.getAttribute('data-id-kota'));
                 console.log(fclass.value);
                 console.log(fpessanger.value);
-            
-            
-            })
+
+
+            });
+            flightfrom.addEventListener("input", function (e) { readJsonCityFlight(flightfrom.value) })
+
         }
     });
 })();
@@ -42,7 +47,7 @@ function readJsonCityFlight(city) {
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.r.length; i++) {
-            console.log(result.r[i].id);
+            console.log(result.r[i].c);
         }
     })
 }
