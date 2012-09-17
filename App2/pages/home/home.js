@@ -57,7 +57,7 @@ function readJsonCity(city) {
     WinJS.xhr({ url: url }).then(function (data) {
         var result = JSON.parse(data.responseText);
         for (var i = 0; i < result.r.length; i++) {
-            console.log(result.r[i].id);
+            console.log("this is id for country " + result.r[i].id);
         }
     })
 }
