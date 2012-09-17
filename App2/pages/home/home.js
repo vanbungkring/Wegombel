@@ -7,7 +7,6 @@
         ready: function (element, options) {
 
             DrawDeals();
-            ;
 
             flightfrom.addEventListener("change", function (e) {
                 readJsonCity(flightfrom.value)
