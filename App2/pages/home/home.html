@@ -41,7 +41,7 @@
                                 <input type="radio" name="merdeka" title="merdeka" class="" checked="checked" />One Way
                             </div>
                             <div class="right-container">
-                                <input type="radio" name="merdeka" title="merdeka" class="" />Return
+                                <input type="radio" name="merdeka" title="merdeka" class="" id="owStatus" checked="" />Return
                                 
                             </div>
                             <label>FROM</label>
@@ -52,10 +52,10 @@
                             <label>DEPARTURE DATE</label>
                             <div id="ffd" data-win-control="WinJS.UI.DatePicker" data-win-options="{minYear: 2012, maxYear: 2030}"></div>
 
-
-                            <label>RETURN DATE</label>
-                            <div id="ffr" data-win-control="WinJS.UI.DatePicker" data-win-options="{minYear: 2012, maxYear: 2030}"></div>
-
+                            <div id="returnA">
+                                <label>RETURN DATE</label>
+                                <div id="ffr" data-win-control="WinJS.UI.DatePicker" data-win-options="{minYear: 2012, maxYear: 2030}"></div>
+                            </div>
                             <div class="left-container">
                                 <label>PESSANGER</label>
                                 <select id="fpessanger" class="flight-half">
@@ -63,9 +63,6 @@
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                     <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-
                                 </select>
                             </div>
                             <div class="right-container">

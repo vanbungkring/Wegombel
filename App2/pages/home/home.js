@@ -7,7 +7,6 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             DrawDeals();
-            var dp = new WinJS.UI.DatePicker(ffd);
             flightsubmit.addEventListener('click', function (e) {
                 console.log(flightfrom.value);
                 document.getElementById("flightfrom").setAttribute("data-id-kota", "Asu");
@@ -17,8 +16,6 @@
                 console.log(flightto.getAttribute('data-id-kota'));
                 console.log(fclass.value);
                 console.log(fpessanger.value);
-
-
             });
             flightfrom.addEventListener("input", function (e) { readJsonCityFlight(flightfrom.value) })
 
