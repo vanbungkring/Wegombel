@@ -13,9 +13,6 @@
                 readJsonCityHotels(flightfrom.value, "flightfrom")
             }, false)
 
-            //hotel eventlistender
-
-
         }
     });
 })();
