@@ -7,10 +7,12 @@
         ready: function (element, options) {
 
             DrawDeals();
-            ////autocomplete on searchbox
+            ;
+
             flightfrom.addEventListener("change", function (e) {
-                console.log(flightfrom.value)
+                readJsonCity(flightfrom.value)
             }, false)
+
 
         }
     });
@@ -50,6 +52,13 @@ function togglePopupUI() {
         runAnimation.innerHTML = "Show pop-up";
     }
 }
-function readJsonCity() {
+function readJsonCity(city) {
+    var url = "http://www.wego.co.id/id/flights/api/autocomplete/5/locations/6/" + city + ".js";
+    WinJS.xhr({ url: url }).then(function (data) {
+        var result = JSON.parse(data.responseText);
+        for (var i = 0; i < result.r.length; i++) {
+            console.log(result.r[i].id);
+        }
+    })
 }
 function calendar() { }
