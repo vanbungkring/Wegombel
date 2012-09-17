@@ -8,9 +8,11 @@
 
             DrawDeals();
 
-            flightfrom.addEventListener("change", function (e) {
+           // console.log("hellow")
+            flightfrom.addEventListener("input", function (e) {
+               
                 readJsonCity(flightfrom.value)
-            }, false)
+             }, false)
 
 
         }
