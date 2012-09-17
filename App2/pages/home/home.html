@@ -38,17 +38,17 @@
                         <span>Search For Flight</span>
                         <div class="searchbox">
                             <label>FROM</label>
-                            <input type="text" id="flightfrom" class="flight-full" autocomplete="on" />
+                            <input type="text" id="flightfrom" class="flight-full" />
                             <label>TO</label>
                             <input type="text" id="flightto" class="flight-full" />
-            
-                                <label>DEPART DATE</label>
-                                <input type="text" id="Text1" class="flight-full" />
-                   
-      
-                                <label>RETURN DATE</label>
-                                <input type="text" id="Text2" class="flight-half" />
-                  
+
+                            <label>DEPART DATE</label>
+                            <div id="ffd" data-win-control="WinJS.UI.DatePicker"></div>
+
+
+                            <label>RETURN DATE</label>
+                            <div id="ffr" data-win-control="WinJS.UI.DatePicker"></div>
+
                             <div class="left-container">
                                 <label>PESSANGER</label>
                                 <select id="flight-pessanger" class="flight-half">
@@ -82,14 +82,14 @@
                             <label>DESTINATION</label>
                             <input type="text" id="Text5" class="flight-full" />
 
-                            <div class="left-container">
-                                <label>ARRIVE</label>
-                                <input type="text" id="Text7" class="flight-half" />
-                            </div>
-                            <div class="right-container">
-                                <label>DEPART</label>
-                                <input type="text" id="Text8" class="flight-half" />
-                            </div>
+
+                            <label>ARRIVE</label>
+                            <div id="had" data-win-control="WinJS.UI.DatePicker"></div>
+
+
+                            <label>DEPART</label>
+                            <div id="hdd" data-win-control="WinJS.UI.DatePicker"></div>
+
                             <div class="left-container">
                                 <label>ROOM</label>
                                 <select id="hotels-room" class="flight-half">
