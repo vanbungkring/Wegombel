@@ -24,7 +24,3 @@ D:\wego-project\Wego\App2\bld\Debug\resources.resfiles
 D:\wego-project\Wego\App2\bld\Debug\pri.resfiles
 D:\wego-project\Wego\App2\bld\Debug\LanguageQualifiers.txt
 D:\wego-project\Wego\App2\bld\Debug\ProjectArchitectures.txt
-D:\wego-project\Wego\App2\bld\Debug\priconfig.xml.intermediate
-D:\wego-project\Wego\App2\bld\Debug\layout.resfiles.intermediate
-D:\wego-project\Wego\App2\bld\Debug\resources.resfiles.intermediate
-D:\wego-project\Wego\App2\bld\Debug\pri.resfiles.intermediate
