@@ -8,10 +8,14 @@
             DrawDeals();
             var dp = new WinJS.UI.DatePicker(ffd);
             flightsubmit.addEventListener('click', function (e) {
+                console.log(flightfrom.value);
                 console.log(flightfrom.getAttribute('data-id-kota'));
-
                 console.log(flightto.value);
+                console.log(flightto.getAttribute('data-id-kota'));
                 console.log(fclass.value);
+                console.log(fpessanger.value);
+            
+            
             })
         }
     });

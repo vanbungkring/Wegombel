@@ -95,6 +95,7 @@
     .searchbox .left-container {
         width: 45%;
         margin-top: 5px;
+        margin-bottom: 10px;
         float: left;
         color: #fff;
     }
@@ -102,6 +103,7 @@
     .searchbox .right-container {
         width: 45%;
         margin-top: 5px;
+        margin-bottom: 10px;
         float: right;
         color: #fff;
     }
