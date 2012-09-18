@@ -11,7 +11,6 @@
                 console.log(flightfrom.value);
                 document.getElementById("flightfrom").setAttribute("data-id-kota", "Asu");
                 console.log(flightfrom.getAttribute('data-id-kota'));
-                console.log(dp.calendar)
                 console.log(flightto.value);
                 console.log(flightto.getAttribute('data-id-kota'));
                 console.log(fclass.value);
